@@ -1,0 +1,47 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    text-align: center;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #ffffff; /* White text for heading */
+}
+
+/* Button Styles */
+button {
+    background-color: #1a73e8; /* Blue button background */
+    color: #ffffff; /* White text on the button */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #1558b0; /* Darker blue on hover */
+}
+
+/* Progress/Status Message */
+#progress {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* Button Focus Styles */
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(26, 115, 232, 0.7); /* Focus effect */
+}
